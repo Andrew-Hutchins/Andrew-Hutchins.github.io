@@ -14,8 +14,27 @@ h2 { font-size: 250%; font-style: italic;
 	
 }
 
-nav li { display: inline-block;
+a:hover{
+ border:1px solid red;  
+}
+
+
+nav li { display: inline;
 		border: 2px solid black; 
 		padding: 10px;
 		margin: 5px
 		background: white; }
+		
+a { color: darkred;
+	text-decoration: none}
+	a:hover { color:red; }
+	
+table, th, td { border: 1px solid black; border-collapse: collapse }
+
+<span class="title">
+
+.title {
+	font-weight: bold;
+	text decoration: red; }
+		
+.special { color: lightblue }
